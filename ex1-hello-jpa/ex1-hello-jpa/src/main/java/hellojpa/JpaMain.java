@@ -15,17 +15,15 @@ public class JpaMain {
 
         //트랜젝션 생성
         EntityTransaction tx = em.getTransaction();
-        
-        //트랜젝션 시작
         tx.begin();
 
         //*********************입력************************
-        /*try{
+        /*try{    //비영속성
             Member member = new Member();
             member.setId(2L);
             member.setName("HelloB");
 
-            //JPA에 저장
+            //JPA에 저장 -> 영속성
             em.persist(member);
 
             //커밋
