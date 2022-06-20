@@ -8,8 +8,10 @@ import javax.persistence.Persistence;
 public class JpaMain {
 
     public static void main(String[] args) {
+        //데이터 베이스당 하나만 생성
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
-
+        
+        //요청이 올때 마다 사용 후 close로 버림. 쓰레드간에 공유 절대 금지!
         EntityManager em = emf.createEntityManager();
 
         //트랜젝션 생성
