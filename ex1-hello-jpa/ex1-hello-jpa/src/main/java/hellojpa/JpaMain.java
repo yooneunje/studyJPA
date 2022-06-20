@@ -1,16 +1,14 @@
 package hellojpa;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
+import java.util.List;
 
 public class JpaMain {
 
     public static void main(String[] args) {
         //데이터 베이스당 하나만 생성
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
-        
+
         //요청이 올때 마다 사용 후 close로 버림. 쓰레드간에 공유 절대 금지!
         EntityManager em = emf.createEntityManager();
 
@@ -81,5 +79,23 @@ public class JpaMain {
         }
         emf.close();
     }*/
+
+        //JPQL->쿼리작성 가능
+        /*try {
+            //테이블이 아닌 Entity 객체를 대상으로 쿼리를 작성.
+            List<Member> result = em.createQuery("select m from Member as m", Member.class).getResultList();
+
+            for (Member member : result) {
+                System.out.println("member.name = " + member.getName());
+            }
+
+            //커밋
+            tx.commit();
+        } catch (Exception e) {
+            tx.rollback();
+        } finally {
+            em.close();
+        }
+        emf.close();*/
     }
 }
