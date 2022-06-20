@@ -15,6 +15,8 @@ public class JpaMain {
 
         //트랜젝션 생성
         EntityTransaction tx = em.getTransaction();
+        
+        //트랜젝션 시작
         tx.begin();
 
         //*********************입력************************
