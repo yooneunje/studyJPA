@@ -33,7 +33,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/studyJPA/jpashop/src/main/resources/META-INF",
+    "last_opened_file_path": "C:/studyJPA/jpashop",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -84,7 +84,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java</url>
-          <line>8</line>
+          <line>11</line>
           <properties class="jpabook.jpashop.JpaMain" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
