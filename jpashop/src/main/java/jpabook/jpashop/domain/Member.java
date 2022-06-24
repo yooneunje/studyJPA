@@ -16,7 +16,7 @@ public class Member {
     private String streat;
     private String zipcode;
 
-    @OneToMany(mappedBy = "MEMBER_ID")
+    @OneToMany(mappedBy = "member")
     private List<Order> orders=new ArrayList<>();
 
     public Long getId() {
