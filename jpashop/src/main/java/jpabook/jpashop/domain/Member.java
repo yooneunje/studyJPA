@@ -5,19 +5,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Member extends BaseEntity{
+public class Member extends BaseEntity {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "MEMBER_ID")
     private Long id;
 
+    @Embedded
+    private Address address;
     private String name;
-    private String city;
-    private String streat;
-    private String zipcode;
 
     @OneToMany(mappedBy = "member")
-    private List<Order> orders=new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -25,6 +25,14 @@ public class Member extends BaseEntity{
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public String getName() {
@@ -35,27 +43,11 @@ public class Member extends BaseEntity{
         this.name = name;
     }
 
-    public String getCity() {
-        return city;
+    public List<Order> getOrders() {
+        return orders;
     }
 
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getStreat() {
-        return streat;
-    }
-
-    public void setStreat(String streat) {
-        this.streat = streat;
-    }
-
-    public String getZipcode() {
-        return zipcode;
-    }
-
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
 }
