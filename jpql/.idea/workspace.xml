@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e609becf-5b12-4f77-99dc-e2833a9731ca" name="Changes" comment="" />
+    <list default="true" id="14bd5dae-1dac-4b68-996e-c506610c072c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2AvHQw4YvST3zyNLSiyeNHDpyAp" />
+  <component name="ProjectId" id="2BW4NrDXyyCtvga9ASilMVyyJeA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -33,28 +32,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/studyJPA/jpql",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "last_opened_file_path": "C:/studyJPA/jpql"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="jpabook.jpashop.domain" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\studyJPA\jpashop\src\main\resources\META-INF" />
+      <recent name="C:\studyJPA\jpql\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jpql" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jpabook.jpashop.JpaMain" />
-      <module name="jpashop" />
+      <option name="MAIN_CLASS_NAME" value="jpql.JpaMain" />
+      <module name="jpql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jpabook.jpashop.*" />
+          <option name="PATTERN" value="jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +66,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e609becf-5b12-4f77-99dc-e2833a9731ca" name="Changes" comment="" />
-      <created>1655883127375</created>
+      <changelist id="14bd5dae-1dac-4b68-996e-c506610c072c" name="Changes" comment="" />
+      <created>1657008471805</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655883127375</updated>
+      <updated>1657008471805</updated>
     </task>
     <servers />
   </component>
@@ -83,9 +78,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java</url>
-          <line>12</line>
-          <properties class="jpabook.jpashop.JpaMain" method="main">
+          <url>file://$PROJECT_DIR$/src/main/java/jpql/JpaMain.java</url>
+          <line>8</line>
+          <properties class="jpql.JpaMain" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
